@@ -30,14 +30,26 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Navigation" asp-action="Index">Pagrindinis langas</a></li>
+                    <li><a asp-area="" asp-controller="Navigation" asp-action="Index">Pagrindinis</a></li>
                     @if (ViewBag.MeniuItems != null)
                     {
-                        foreach (string item in ViewBag.MeniuItems)
+                        if (ViewData["Logged"] != null)
                         {
-                        <li><a asp-area="" asp-controller="Navigation" asp-action="@item">@ViewBag.MeniuItemDictionary[item]</a></li>
+
+
+                            foreach (string item in ViewBag.MeniuItems)
+                            {
+                                <li><a asp-area="" asp-controller="Navigation" asp-action="@item">@ViewBag.MeniuItemDictionary[item]</a></li>
+                            }
+                            <li><a asp-area="" asp-controller="Navigation" asp-action="Logout">Atsijungti</a></li>
+                        }
+                        else
+                        {
+                            <li><a asp-area="" asp-controller="Navigation" asp-action="Login">Prisijungti</a></li>
+                            <li><a asp-area="" asp-controller="Navigation" asp-action="Register">Užsiregistruoti</a></li>
                         }
                     }
+
                 </ul>
             </div>
         </div>
