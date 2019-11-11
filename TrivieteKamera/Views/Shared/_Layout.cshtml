@@ -33,7 +33,7 @@
                     <li><a asp-area="" asp-controller="Navigation" asp-action="Index">Pagrindinis</a></li>
                     @if (ViewBag.MeniuItems != null)
                     {
-                        if (ViewData["Logged"] != null)
+                        if (Session["Test"])
                         {
 
 
@@ -41,12 +41,12 @@
                             {
                                 <li><a asp-area="" asp-controller="Navigation" asp-action="@item">@ViewBag.MeniuItemDictionary[item]</a></li>
                             }
-                            <li><a asp-area="" asp-controller="Navigation" asp-action="Logout">Atsijungti</a></li>
+                            <li><a asp-area="" asp-controller="User" asp-action="Logout">Atsijungti</a></li>
                         }
                         else
                         {
-                            <li><a asp-area="" asp-controller="Navigation" asp-action="Login">Prisijungti</a></li>
-                            <li><a asp-area="" asp-controller="Navigation" asp-action="Register">Užsiregistruoti</a></li>
+                            <li><a asp-area="" asp-controller="User" asp-action="Login">Prisijungti</a></li>
+                            <li><a asp-area="" asp-controller="User" asp-action="Register">Užsiregistruoti</a></li>
                         }
                     }
 

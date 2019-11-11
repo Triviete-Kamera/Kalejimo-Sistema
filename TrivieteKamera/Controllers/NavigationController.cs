@@ -12,9 +12,16 @@ namespace TrivieteKamera.Controllers
         public IActionResult Index()
         {
             string[] links = { "SupplierList", "ScheduleCreate", "CafeteriaRateList", "OffenseReport",
-                                "SupplyStats", "PrisonerList", "ZoneList", "Schedule", "SupplyList",
-                                ""
+                                "SupplyStats", "PrisonerList", "ZoneList", "Schedule", "SupplyList"
             };
+            ViewBag.MeniuItemDictionary = MeniuItemDictionary;
+            ViewBag.MeniuItems = links;
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            string[] links = {  };
             ViewBag.MeniuItemDictionary = MeniuItemDictionary;
             ViewBag.MeniuItems = links;
             return View();
