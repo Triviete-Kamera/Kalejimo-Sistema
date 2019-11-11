@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\algim\\source\\repos\\TrivieteKamera\\TrivieteKamera\\TrivieteKamera.csproj",
+      "projectUniqueName": "D:\\Kalejimo-Sistema\\TrivieteKamera\\TrivieteKamera.csproj",
       "projectName": "TrivieteKamera",
-      "projectPath": "C:\\Users\\algim\\source\\repos\\TrivieteKamera\\TrivieteKamera\\TrivieteKamera.csproj",
+      "projectPath": "D:\\Kalejimo-Sistema\\TrivieteKamera\\TrivieteKamera.csproj",
       "packagesPath": "C:\\Users\\algim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\algim\\source\\repos\\TrivieteKamera\\TrivieteKamera\\obj\\",
+      "outputPath": "D:\\Kalejimo-Sistema\\TrivieteKamera\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
