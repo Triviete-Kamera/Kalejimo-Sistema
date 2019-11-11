@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<form action="FormLogin" method="post">
+    <table>
+        <tr>
+            <td>Enter ID: </td>
+            <td><input type="text" name="txtId" /></td>
+        </tr>
+        <tr>
+            <td>Enter PassWord: </td>
+            <td><input type="text" name="txtName" /></td>
+        </tr>
+        <tr>
+           <td> <a asp-area="" asp-controller="User" asp-action="Logged">Prisijungimas</a></td>
+        </tr>
+    </table>
+</form>
