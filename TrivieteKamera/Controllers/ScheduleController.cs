@@ -12,5 +12,14 @@ namespace TrivieteKamera.Controllers
         {
             return View();
         }
+        public IActionResult ScheduleCreate()
+        {
+            return View();
+        }
+        public IActionResult Schedule()
+        {
+            return View();
+        }
+
     }
 }

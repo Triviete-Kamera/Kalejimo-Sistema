@@ -10,6 +10,10 @@ namespace TrivieteKamera.Controllers
     {
         public IActionResult Index()
         {
+            string[] links = { "Add supplier", "Remove supplier" 
+            };
+            //ViewBag.MeniuItemDictionary = MeniuItemDictionary;
+            ViewBag.MeniuItems = links;
             return View();
         }
     }
