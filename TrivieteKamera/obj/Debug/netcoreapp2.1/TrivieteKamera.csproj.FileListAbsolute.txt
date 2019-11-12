@@ -65,3 +65,4 @@ D:\Kalejimo-Sistema\TrivieteKamera\obj\Debug\netcoreapp2.1\TrivieteKamera.dll
 D:\Kalejimo-Sistema\TrivieteKamera\obj\Debug\netcoreapp2.1\TrivieteKamera.pdb
 D:\Kalejimo-Sistema\TrivieteKamera\obj\Debug\netcoreapp2.1\TrivieteKamera.csproj.CopyComplete
 D:\Kalejimo-Sistema\TrivieteKamera\obj\Debug\netcoreapp2.1\Razor\Views\User\Login.g.cshtml.cs
+D:\Kalejimo-Sistema\TrivieteKamera\obj\Debug\netcoreapp2.1\Razor\Views\User\Register.g.cshtml.cs

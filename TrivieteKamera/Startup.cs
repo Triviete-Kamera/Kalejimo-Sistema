@@ -56,7 +56,7 @@ namespace TrivieteKamera
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Navigation}/{action=Index}/{id?}");
             });
         }
     }
